@@ -28,6 +28,9 @@ public class A1_SwitchCase {
 		case "Poha": {
 			System.out.println("Customer wants Poha");
 		}
+		case "Rice Bath": {
+			System.out.println("Customer wants Rice Bath");
+		}
 
 		default: {
 
@@ -37,4 +40,5 @@ public class A1_SwitchCase {
 
 		}
 	}
+
 }
