@@ -31,6 +31,10 @@ public class A1_SwitchCase {
 		case "Rice Bath": {
 			System.out.println("Customer wants Rice Bath");
 		}
+		case "Palav": {
+			System.out.println("Customer wants Palav");
+		}
+
 
 		default: {
 
