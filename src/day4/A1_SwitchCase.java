@@ -34,7 +34,7 @@ public class A1_SwitchCase {
 
 		default: {
 
-			System.out.println("Sever default Vada");
+			System.out.println("serve default Vada");
 
 		}
 
@@ -42,3 +42,4 @@ public class A1_SwitchCase {
 	}
 
 }
+
