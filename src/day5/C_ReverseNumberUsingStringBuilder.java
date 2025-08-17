@@ -20,8 +20,7 @@ public class C_ReverseNumberUsingStringBuilder {
 		
 		StringBuilder sbb = new StringBuilder(String.valueOf(num2));
 		StringBuilder revcd =sbb.reverse();
-		String data=revcd.toString();
-		        
+		String data=revcd.toString();		        
 		int reversedd=Integer.parseInt(data);
 		System.out.println("Reverse Number is : "+reversedd );
 
