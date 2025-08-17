@@ -17,6 +17,9 @@ public class A_ReverseNumber {
 			num = num / 10;
 		}
 		System.out.println("Reverse number is: "+rev);
+		
+		
+		sc.close();  //it is optional but recommonded
 	}
 
 }

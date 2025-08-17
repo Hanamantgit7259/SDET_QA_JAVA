@@ -35,7 +35,6 @@ public class A1_SwitchCase {
 			System.out.println("Customer wants Palav");
 		}
 
-
 		default: {
 
 			System.out.println("serve default Vada");

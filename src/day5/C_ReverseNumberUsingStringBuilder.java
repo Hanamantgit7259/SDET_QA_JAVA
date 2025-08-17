@@ -14,6 +14,16 @@ public class C_ReverseNumberUsingStringBuilder {
 		StringBuilder ap = sb.append(num);
 		StringBuilder rev = ap.reverse();
 		System.out.println("The Reverse Number is: " + rev);
+		
+		//approach 2
+		int num2=1234;
+		
+		StringBuilder sbb = new StringBuilder(String.valueOf(num2));
+		StringBuilder revcd =sbb.reverse();
+		String data=revcd.toString();
+		        
+		int reversedd=Integer.parseInt(data);
+		System.out.println("Reverse Number is : "+reversedd );
 
 	}
 
