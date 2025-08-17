@@ -13,7 +13,6 @@ public class B_PrimeNumber {
 		// int num1[]= {1,2,3,4,7};
 
 		if (num > 1) {
-
 			for (int i = 1; i <= num; i++) {
 
 				if (num % i == 0) {
