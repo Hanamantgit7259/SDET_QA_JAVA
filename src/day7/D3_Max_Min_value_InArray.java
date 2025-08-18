@@ -15,11 +15,10 @@ public class D3_Max_Min_value_InArray {
 			if (a[i] > max) {
 				secondlargest = max;
 				max = a[i];
-			
-			}
-			else if(a[i]< max && a[i] > secondlargest){
+
+			} else if (a[i] < max && a[i] > secondlargest) {
 				secondlargest = a[i];
-				
+
 			}
 		}
 		System.out.println("Maximum value : " + secondlargest);

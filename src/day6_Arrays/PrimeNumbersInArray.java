@@ -18,7 +18,7 @@ public class PrimeNumbersInArray {
         System.out.println("Prime numbers in the array:");
         for (int i = 0; i < arr.length; i++) {
             if (isPrime(arr[i])) {
-                System.out.println(arr[i]);
+                System.out.print(arr[i] + "  ");
             }
         }
     }
